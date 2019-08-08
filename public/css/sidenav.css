@@ -1,0 +1,136 @@
+#donate{
+    background-color:rgb(0, 107,166);
+
+}
+.side_nav_logo{
+   width:25px;
+   height:25px;
+   position: relative;
+   left:1px;
+   display:inline-block;
+  /* padding-bottom: 1px;*/
+   top:5px;
+
+}
+/* donate*/
+#test {
+    background:#000;
+    position: fixed;
+    border-radius: 50px;
+    top:95%;
+    bottom:4%;
+    left:2px;
+    width:35px;
+    padding:2px;
+    -webkit-transition-property: top, bottom;
+    -webkit-transition-duration: 0.5s;
+    z-index: 999999;
+}
+#test:hover {
+    top:54%!important;
+    bottom:5%;
+}
+#test .long-text{
+    transition: opacity 1000ms; 
+    opacity:0;               
+    color:white;
+    white-space: nowrap;      
+    font-size: 0;                
+    width: 0;             
+    margin:0;
+}
+#test .long-text p{
+    padding-left:6px;
+    padding-top:12px;
+    line-height: 0.5;
+}
+#test .long-text.show-long-text{
+    transition: opacity 700ms,
+    width 1ms linear 270ms,       
+    font-size 1ms linear 270ms;  
+    opacity:1;                 
+    font-size:16px;                       
+    width: auto;                            
+}
+@media only screen and (min-width: 1920px){
+  #test{
+    top: 91%;
+  }
+  #test:hover {
+    top:70%!important;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px){ 
+ #test:hover {
+    top:59%!important;
+    bottom:5%;
+}
+#test{
+    top:91%;
+}
+}
+
+@media only screen and (min-width: 1270px) and (max-width: 1366px){
+#test {
+    top:89%;
+}
+#test:hover {
+    top:59%;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1269px) {
+    #test:hover {
+    top: 76%;
+    bottom:5%;
+}
+#test{
+    top: 90%;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    #test{
+   top: 92%;
+}
+   #test:hover {
+   top: 70%!important;
+    }
+}
+@media only screen and (min-width:640px) and (max-width:767px) {
+  .side_nav_logo{
+    top: 2px;
+   }
+  #test:hover {
+    top: 26%!important;
+  }
+  #test{
+    top: 86%;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:639px) {
+  #test {
+    top: 89%;
+  }
+
+}
+@media only screen and (min-width:321px) and (max-width:479px) {
+ #test{
+    width:30px;
+    top: 88%;
+  }
+  .side_nav_logo{
+   left: -1px;
+    top: 10px;
+   }
+}
+@media only screen and (min-width:0px) and (max-width:320px) {
+  #test{
+    width:30px;
+    top: 87%;
+  }
+ #test:hover{
+    top: 42%!important;
+   }
+  .side_nav_logo{
+    left: -3px;
+   }
+}

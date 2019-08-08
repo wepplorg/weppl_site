@@ -1,0 +1,544 @@
+
+@media only screen and (min-width: 1920px){
+#main {
+   /* min-height: 69vh;*/
+}
+
+}
+@media only screen and (min-width: 1440px)  and (max-width: 1919px){ 
+.border_right i{
+	right: -171px!important;
+}
+#main {
+    /*min-height:70vh;*/
+}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1366px){
+.fund_card .progress_sec .days{
+	padding: 0px 45px;
+}
+.short_discription_categories {
+    min-height: 5.3rem;
+}
+.plans_card{
+	height: 48.2rem;
+}
+}
+@media only screen and (min-width: 1270px) and (max-width: 1279px){
+.border_right i{
+	right: -157px!important;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width:1269px) {
+.main_carosuel .btn{
+	left: 18%;
+}
+
+.navbar-nav .nav-item  .nav-link{
+	font-size:1.1rem!important;
+}
+.short_discription{
+	min-height: 5.5rem;
+}
+.card_ngo, .cad_ngo {
+    height: 22rem;
+}
+.owl-prev, .owl-next{
+	height: 84%;
+}
+.forgot_password_text{
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+.share_sec .btn-secondary{
+	padding:9px;
+}
+.warning-btn{
+	font-size: 0.7rem!important;
+}
+.beneficiary_right-panel .right-panel_text {
+    margin-top: 0.5rem;
+}
+.donors-card h5 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.feature_sub_title{
+	min-height:4rem;
+}
+.fund_card .ngo_name{
+	min-height: 2.6rem;
+}
+.view_more_btn_sec{
+	padding-right: 3.8rem;
+}
+.fund_card .progress_sec .days,.fund_card .progress_sec .support{
+	padding: 0px 23px;
+}
+.fund_card .progress_sec .days_categories,.fund_card .progress_sec .support_categories{
+	padding: 0px 5px;
+}
+.donor_dashboard_sec .owl-carousel .badge_icon {
+    top: -12px;
+}
+.border_right i{
+	right: -113px;
+}
+.how_it_works_card{
+	height: 18rem;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.main_carosuel .btn{
+	top: 69%;
+   left: 19%;
+    font-size: 14px;
+}
+.feature-subtitle{
+		font-size:18px;
+}
+.comment_form_sec{
+	padding-left: 1.5rem;
+}
+.charity-content-title{
+	font-size: 1.4rem;
+} 
+.owl-next{
+	right: -3rem;
+}
+.owl-prev{
+	left: -3rem;
+}
+.tab_pills{
+    font-size: 0.8rem;
+    flex-wrap: nowrap;
+}
+.short_discription{
+	min-height:8rem;
+}
+.fund_card .ngo_name{
+	min-height: 2.6rem;
+}
+.short_discription_categories {
+    min-height: 5rem;
+}
+.share_sec .btn-secondary{
+	font-size: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+.support_sec{
+	padding-left:1rem;
+}
+.view_more_btn_sec{
+	padding-right: 1rem;
+}
+.beneficiary_right-panel .right-panel_text{
+	margin-top:0.5rem;
+	font-size: 0.59rem;
+}
+.contact_sec{
+	margin-bottom: 1rem;
+}
+.feature_sub_title{
+	min-height: 6.4rem;
+}
+.fund_card .progress_sec .days,.fund_card .progress_sec .support{
+	font-size: 0.8rem;
+	padding:0;
+}
+.fund_card .progress_sec .days_categories,.fund_card .progress_sec .support_categories{
+	font-size: 0.7rem;
+	padding:0;
+}
+.feature_categories_title{
+	min-height: 6.5rem;
+}
+.content_text_donor{
+  font-size:1.4rem;
+}
+.black_card .tag_text{
+	font-size:1rem;
+}
+.donor_dashboard_sec .owl-carousel .badge_icon {
+    top: -13px;
+}
+.donor_dashboard_sec .lightgreen_card{
+	height:274px;
+}
+.footer-content-sec h4,.ngo_conteiner .details li a{
+	font-size: 0.9rem;
+}
+.ngo_conteiner{
+	margin: 0rem 1.8rem;
+}
+.carousel-control-prev {
+    left: 3%!important;
+   }
+   .border_right i{
+   	display: none;
+   }
+}
+@media only screen and (min-width:569px) and (max-width:767px) {
+.share_sec .btn-secondary{
+	margin-left:0.2rem;
+}
+.tab_left_pills{
+	margin-bottom: 1.5rem;
+}
+.comment_form_sec{
+	padding-left: 1rem;
+}
+.beneficiary_right-panel .right-panel_text {
+    margin-top: 2.2rem;
+}
+.right-panl_text {
+    margin-top: 1.5rem;
+}
+.view_more_btn_sec{
+	padding-right: 0;
+}
+.fund_card{
+	margin-bottom: 1rem;
+}
+.owl-prev {
+    left: -24px;
+}
+.owl-next {
+    right: -23px;
+}
+.right_navs{
+	display:none;
+	position: relative;
+}
+.righ_nav_dropdown{
+	display:block;
+	position: absolute;
+	top: -0.6%;
+    left: 26%;
+}
+.left_nav_dropdown{
+    display:block;
+	position: absolute;
+	top: -17px;
+	left: 21px;
+}
+.categories_title-sec h5 b,.tab_left_pills,.border_right i{
+	display: none;
+}
+.main_carosuel .btn{
+	top: 69%;
+    left: 18%;
+    font-size: 9px;
+}
+.categories_title-sec,.feature_card_sec,.categories_title-sec .right_sec{
+	padding:0;
+}
+.categories_title-sec .right_sec{
+	padding-top:2rem;
+}
+.ngo_conteiner{
+	padding:0.5rem 0 0 0;
+	margin: 0 2rem;
+}
+.fund_card .image_sec,.fund_card_img{
+	height:300px;
+}
+.welcome_card{
+	margin:0;
+}
+.separator{
+	display: none;
+}
+.add_button_career{
+	margin-bottom: 1rem;
+}
+.feature_card_sec .no_results_sec{
+	top:0;
+	margin-bottom: 1rem;
+}
+#back2Top {
+    right: 2rem;
+}
+.donor_dashboard_sec .lightgreen_card{
+	height:27rem;
+}
+.logo{
+	width: 100px;
+    height: 44px;
+}
+.header_logo {
+    margin: auto;
+}
+.carousel-control-prev {
+    left: 1%!important;
+   }
+.search_row_sec{
+    position: relative;
+    top: -54px;
+    right: -31px;
+}
+}
+@media only screen and (min-width:480px) and (max-width:568px) {
+.cause-btn{
+	    font-size:8px;
+	}
+
+.fundd-sec h2,.fundd-sec h4,.fund-sec h2,.fund-sec h4{
+	font-size:1rem;
+}
+
+.fund_content{
+	padding-left: 1rem;
+}
+.read-more-link{
+	font-size: 11px;
+}
+.owl-next{
+	right: -17px;
+}
+.owl-prev{
+	left: -16px;
+}
+.tab_left_pills{
+	margin-bottom: 1.5rem;
+}
+.share_sec .btn-secondary{
+	margin-left: 2.5rem;
+	font-size: 15px;
+	padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.view_more_btn_sec{
+	padding-right: 0;
+}
+.add_button_career{
+	margin-bottom: 1rem;
+}
+.feature_card_sec .no_results_sec{
+	top:0;
+}
+.main_carosuel .btn{
+	top: 68%;
+    left: 19%;
+    font-size: 8px;
+}
+.carousel-control-prev{
+	left: 2%!important;
+}
+.carousel-control-prev, .carousel-control-next{
+	height: 35px;
+    width: 35px!important;
+    opacity: 1;
+}
+.right_navs{
+	display:none;
+	position: relative;
+}
+.righ_nav_dropdown{
+	display:block;
+	position: absolute;
+	top: -1.3%;
+    left: 26%;
+}
+.left_nav_dropdown{
+    display:block;
+	position: absolute;
+	top: -20px;
+	left: -39px;
+}
+.categories_title-sec h5 b,.tab_left_pills{
+	display: none;
+}
+}
+@media only screen and (min-width:0px) and (max-width:479px) {
+.carousel-item .mobile{
+	display: block!important;
+}
+.carousel-item .large_device,.separator,.tab_pills{
+	display:none!important;
+}
+.fund_content .fund-sec,.fundd-sec,.categories_title-sec .right_sec{
+      padding-left: 0!important;
+    }
+.categories_title-sec .right_sec{
+	padding-top: 20px;
+    }
+.fund_content{
+    padding: 0 0 0 8rem;
+    }
+.logo{
+	width: 100px;
+    height: 44px;
+}
+.carousel,.charity-sec, .cause_sec{
+	margin-bottom: 2rem!important;
+}
+
+.carousel-control-next {
+    right: -10px;
+}
+.fund_card{
+	margin:10px 0px;
+}
+.owl-next{
+	right: -21px;
+}
+.owl-prev{
+	left: -21px;
+}
+.forgot_password_text{
+    float:left;
+    margin-top:1rem;
+}
+.tab_left_pills{
+	margin-bottom: 1.5rem;
+}
+.share_sec .btn-secondary{
+	font-size: 12px;
+    padding: 11px;
+    margin-left: 1.5rem;
+}
+.modal_navs{
+	display:block;
+	}
+.bank_tabs .nav-link{
+	padding: 0.4rem 0.4rem;
+}
+.feature_card_sec{
+	padding-right: 0;
+}
+.drop_down_share_btn{
+	margin-bottom: 1rem;
+}
+.comment_form_sec{
+	margin-left: 2rem;
+}
+.post_btn{
+	margin-left: 4rem;
+}
+.comment_content_sec{
+	margin-left: -6px!important;
+}
+.view_more_btn_sec{
+	padding-right: 0;
+}
+.fund_card .progress_sec .days_categories{
+    padding: 0px 30px;
+}
+.add_button_career,.fund_card{
+	margin-bottom: 1rem;
+}
+.feature_card_sec .no_results_sec{
+	margin-bottom: 1rem;
+	top:1rem;
+}
+
+#back2Top {
+  right: 0.3rem;
+}
+.header_logo{
+    margin: auto;
+}
+.right_navs{
+	display:none;
+	position: relative;
+}
+.righ_nav_dropdown{
+	display:block;
+	position: absolute;
+	top: -0.65%;
+    left: 26%;
+}
+.left_nav_dropdown{
+    display:block;
+	position: absolute;
+	top: -14px;
+	left: -39px;
+}
+.categories_title-sec h5 b,.tab_left_pills{
+	display: none;
+}
+.beneficiary_story_card img{
+	height:234px;
+}
+.social_media_btns .facebook_btn{
+	margin-bottom: 1rem;
+}
+.ngo_conteiner{
+	padding:0.5rem 0 0 0;
+	margin: 0;
+}
+.donor_dashboard_sec{
+	margin:0!important;
+}
+.donor_dashboard_sec .owl-carousel .badge_icon{
+	top:0;
+}
+.beneficiary_img_sec{
+	height:auto;
+}
+.right-nav_border{
+	border-bottom:none;
+	margin:0;
+}
+.plan_row,.welcome_card,nav{
+	margin:0!important;
+}
+.works_sub_title{
+	padding: 2rem 0.7rem;
+}
+.charity-sec, .beneficiary-row,.categories_title-sec{
+	padding:0;
+}
+.carousel-control-prev, .carousel-control-next{
+	height:23px;
+	width:23px!important;
+	opacity: 1;
+}
+.carousel-control-prev{
+	left:-2px!important;
+}
+.border_right i{
+	display: none;
+}
+.plan_row .donor_partner_img {
+	margin-bottom:1.5rem;
+}
+.loading_more_sec p{
+	font-size: 1.2rem;
+}
+.main_carosuel .btn{
+	top: 67%;
+    left: 20%;
+    font-size: 9px;
+    padding: 12px 14px;
+}
+.drop_down_share_btn{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.beneficiary_donate_btn{
+    display: none;
+}
+.mobile_donate_button{
+	font-size: 0.8rem;
+    font-weight: bold;
+    display: block!important;
+}
+.donate_btn_sec{
+	padding: 0 0 0 0.7rem;
+}
+.search_row_sec{
+    position: relative;
+    left: -2.7rem;
+}
+.search_sec_input{
+	width: 110%!important;
+	margin-right: -0.7rem;
+}
+#without_login_donate .modal-header .close, #without_login .modal-header .close{
+	    margin: -3rem -1.5rem 0rem auto!important;
+}
+}

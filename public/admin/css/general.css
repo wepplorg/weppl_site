@@ -1,0 +1,374 @@
+body{
+	font-family: Karla,sans-serif!important;
+	background: #fff;
+    height:100%;
+    width:100%;
+    margin:0;
+}
+html{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+/*header*/
+.super_admin_header{
+	background-color:#fff;
+	min-height: 72px!important;
+	border-bottom: 1px solid #ccc!important;
+}
+.header-fixed .app-body {
+    margin-top: 7rem;
+    }
+/*sidebar*/
+.sidebar-nav .open>a, .sidebar-nav .open>a:hover{
+	background-color:#ffd700!important;
+	color: #fff!important;
+}
+.sidebar-nav>li>a:focus, .sidebar-nav>li>a:hover{
+	background-color:#ffd700!important;
+	color: #fff!important;
+}
+.nav>.avatar_link>a:focus, .nav>.avatar_link>a:hover{
+	background-color:unset!important;
+}
+
+.nav .open>a.active{
+	background-color:#ffd700!important;
+	color:#fff!important;
+}
+.nav-dropdown-items>.nav-item>.ngo_nav_link.active{
+    background-color:#000!important;
+	color:#fff!important;
+}
+.nav-dropdown-items>.nav-item>.ngo_nav_link:hover,.nav-dropdown-items>.nav-item>.ngo_nav_link:active,.nav-dropdown-items>.nav-item>.ngo_nav_link:focus{
+	background-color:#000!important;
+	color:#fff!important;
+}
+.sidebar {
+    background-color:rgb(0,107,166);
+}
+
+.navbar{
+	border-radius:0!important;
+}
+.sidebar-nav,.sidebar-minimized .sidebar .sidebar-minimizer,.sidebar .sidebar-minimizer,.sidebar .sidebar-minimizer:hover{
+    background-color:#fff;
+    border-right: 1px solid #ccc!important;
+}
+.sidebar .nav-link{
+	color:#000!important;
+}
+.sidebar .nav-link:hover,.sidebar>.nav>li>a:focus,.sidebar>.nav>li>a:hover{
+	color:#fff!important;
+	background-color:#ffd700!important;
+}
+.sidebar .nav-dropdown.open .nav-link.disable{
+color:#eee;
+cursor: not-allowed;
+}
+.sidebar .nav-dropdown.open .nav-link.disable:hover{
+	cursor: not-allowed;
+}
+
+.sidebar .nav{
+	margin-top: 20px;
+}
+/*admin_category*/
+.categories_create_btn{
+	margin-bottom:2rem;
+	margin-right: 1.8rem;
+	background-color:#ffd700!important;
+	border-color:#ffd700!important;
+}
+
+.badge-success {
+    color: #fff!important;
+    background-color: #4dbd74!important;
+}
+.badge-danger{
+    color: #fff!important;
+    background-color: #d9534f!important;
+}
+
+/*admin-ngo */
+.profile_content{
+margin-bottom: 2rem;
+}
+.profile_content div{
+line-height: 2;
+}
+.profile_title{
+	margin-bottom: 2.5rem;
+}
+.ngo_profile_form{
+	margin-bottom:2rem;
+}
+.ngo_profile_tabs{
+	margin-bottom: 2rem!important;
+}
+.profile_view_content{
+	margin-top:1rem;
+	border-bottom: 1px solid #c8ced3;
+	border:none;
+	border-top:1px solid #c8ced3;
+}
+.ngo_content_sec .update_button{
+	margin-top:2rem;
+	margin-right:1rem;
+}
+.document_sec{
+	margin-bottom: 1.5rem;
+}
+.verify_sec input[type=checkbox], .verify_sec input[type=radio]{
+	margin: 8px 0 0;
+}
+.verify_sec input[type=checkbox], .verify_sec input[type=radio]{
+	margin: 8px 0 0;
+}
+/*ngo*/
+.checkbox_input{
+	margin-left:0!important;
+}
+.information_sec{
+	margin-bottom: 1rem;
+}
+.social-check{
+	font-style: italic;
+    font-size: 11px;
+}
+.social_help{
+	margin-bottom: 1rem;
+}
+.facebook_input{
+	width:100%!important;
+}
+.logo_sec{
+	border-radius: 2px;
+	border:1px solid #ddd;
+	padding: 2rem;
+	margin-left:0rem!important;
+	margin-right:0rem!important;
+}
+.logo_img_extension{
+	font-style: italic;
+    font-size: 11px;
+}
+.note-popover.popover{
+display:none;
+}
+.radio_sec,.rado_sec{
+	margin-left:2rem;
+}
+.card-title{
+	border-bottom: 1px solid #ccc;
+}
+.submit_button{
+	margin-top:2rem;
+}
+.ngo_content_sec{
+	margin-bottom: 1rem;
+}
+#ngo_pending_filter{
+	float:right;
+}
+.paginate_button{
+	border:1px solid #ccc;
+	padding:1rem;
+	margin:0.2rem;
+}
+.dataTables_paginate{
+	margin-bottom: 2rem!important;
+}
+.create_story_form .form-group{
+	margin-left:0!important;
+	margin-right: 0!important;
+}
+.user_button{
+	margin-right:20px;
+}
+.story_button{
+	margin-right:1rem;
+}
+.sorting,.sorting_asc{
+	width:100px!important;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+.form-inline label{
+	justify-content:flex-start;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.app-body,.profile_content{
+	margin-top: 0!important;
+}
+.navbar{
+	margin-bottom: 0!important;
+}
+.form-inline label{
+	justify-content:flex-start;
+}
+.beneficiary_tabs .nav-link{
+	font-size:1.2rem;
+}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+.app-body,.profile_content{
+	margin-top: 0!important;
+}
+.navbar{
+	margin-bottom: 0!important;
+}
+#ngo_pending, #donors_table, .approved_ngo_table, #beneficairy_pending, #beneficairy_approved, #beneficairy_rejected, .ngo_users_table, #beneficairy_completed, #categories
+{	overflow-x: auto;
+	display: block;
+	width:100%;
+}
+.beneficiary_tabs .nav-link{
+	font-size:0.9rem;
+}
+.form-inline label{
+	justify-content:flex-start;
+}
+.dataTables_paginate {
+	margin-top:2rem!important;
+}
+.user_btn_sec{
+	justify-content: flex-end;
+}
+.navbar-brand-full{
+    width:100px;
+    height:50px;
+}
+.super_admin_header .navbar-brand{
+    left: 33%!important;
+}
+}
+@media only screen and (min-width:480px) and (max-width:639px){
+.app-body,.profile_content{
+	margin-top: 0;
+}
+.navbar{
+	margin-bottom: 0!important;
+}
+#ngo_pending,.approved_ngo_table,#beneficairy_pending,#beneficairy_approved,#beneficairy_rejected,.ngo_users_table,#beneficairy_completed{
+	overflow-x: auto;
+	display: block;
+	width:100%;
+}
+.dataTables_paginate {
+	margin-top:2rem!important;
+}
+.user_btn_sec{
+	justify-content: flex-end;
+}
+.navbar-brand-full{
+    width:100px;
+    height:50px;
+}
+.super_admin_header .navbar-brand{
+    left: 33%!important;
+}
+}
+@media only screen and (min-width:321px) and (max-width: 479px){
+.navbar{
+	margin-bottom: 0!important;
+}
+.radio_sec {
+    margin-left: 1rem;
+}
+.ngo_profile_tabs,.nav-tabs{
+	font-size:1.2rem;
+}
+.app-body,.profile_content{
+	margin-top: 0!important;
+}
+.profile_title{
+	margin-bottom: 4rem;
+}
+.input_result_sec{
+	 margin-top: 1rem;
+}
+.ngo_content_sec {
+    margin-bottom: 2rem;
+}
+#ngo_pending, #donors_table, .approved_ngo_table, #beneficairy_pending, #beneficairy_approved, #beneficairy_rejected, .ngo_users_table, #beneficairy_completed, #categories
+{	overflow-x: auto;
+	display: block;
+	width:100%;
+}
+.beneficiary_tabs .nav-link{
+	font-size:0.9rem;
+}
+.facebook_sec input[type=checkbox], .facebook_sec input[type=radio],.twiter_sec input[type=checkbox],.twiter_sec input[type=radio]{
+	margin: 3px -17px;
+}
+.social_help .twiter_sec{
+	padding-left:-1px!important;
+}
+.admin_nav_tabs{
+	font-size: 1rem;
+}
+.admin_nav_tabs .nav-link{
+	font-size: 0.9rem;
+}
+.dataTables_paginate {
+	margin-top:2rem!important;
+}
+.user_button,.categories_create_btn{
+	margin-bottom: 2rem!important;
+}
+.user_btn_sec{
+	justify-content: flex-end;
+}
+.super_admin_header .navbar-brand{
+    left: 33%!important;
+}
+.navbar-brand-full{
+    width:100px;
+    height:50px;
+}
+}
+@media only screen and (min-width: 0px) and (max-width:320px){
+.navbar-brand-full{
+    width:100px;
+    height:50px;
+}
+.super_admin_header .navbar-brand{
+    left: 33%!important;
+}
+.ngo_profile_tabs{
+	font-size:1rem;
+}
+.nav-tabs{
+	font-size:0.9rem;
+}
+.app-body,.profile_content{
+	margin-top: 0;
+}
+.profile_title h2{
+	font-size: 2rem;
+}
+.navbar{
+	margin-bottom: 0!important;
+}
+#ngo_pending,#donors_table,.approved_ngo_table,#beneficairy_pending,#beneficairy_approved,#beneficairy_rejected,.ngo_users_table,#beneficairy_completed,#categories{
+	overflow-x: auto;
+	display: block;
+	width:100%;
+}
+.facebook_sec input[type=checkbox], .facebook_sec input[type=radio],.twiter_sec input[type=checkbox],.twiter_sec input[type=radio]{
+	margin: 3px -17px;
+}
+.dataTables_paginate {
+	margin-top:2rem!important;
+}
+.user_button,.categories_create_btn{
+	margin-bottom: 2rem!important;
+}
+.user_btn_sec{
+	justify-content: flex-end;
+}
+}

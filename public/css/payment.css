@@ -1,0 +1,26 @@
+.payment_title{
+   color:#006BA6;
+   padding: 1rem;
+}
+.gray_text,.gray_text a{
+	color:#ccc;
+}
+.gray_text a{
+	text-decoration: underline;
+}
+.grey_sec{
+	padding:2rem 0;
+}
+footer,.address_sec{
+	margin-bottom:1.5rem;
+}
+.logo_sec img{
+	margin-bottom: -28px;
+}
+.invoice_sec{
+	margin:0 2rem!important;
+
+}
+
+}
+

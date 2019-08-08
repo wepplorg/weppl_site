@@ -1,0 +1,76 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "amostajo/laravel-image-handler": "1.0.1",
+        "antennaio/laravel-clyde": "~0.0.1",
+        "barryvdh/laravel-dompdf": "^0.8.4",
+        "fideloper/proxy": "~3.3",
+        "gerardojbaez/money": "0.*",
+        "gladcodes/keygen": "^1.1",
+        "intervention/image": "^2.4",
+        "jorenvanhocht/laravel-share": "^2.0",
+        "kwn/number-to-words": "^1.6",
+        "laravel/framework": "5.5.*",
+        "laravel/passport": "~4.0",
+        "laravel/socialite": "^3.0",
+        "laravel/tinker": "~1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "league/glide-laravel": "^1.0",
+        "maatwebsite/excel": "~2.1.0",
+        "qcod/laravel-imageup": "^1.0",
+        "razorpay/razorpay": "^2.3",
+        "shawnsandy/img-fly": "^0.1.21",
+        "spatie/laravel-sluggable": "^2.1",
+        "tzsk/payu": "^2.0",
+        "zizaco/entrust": "5.2.x-dev"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0",
+        "symfony/thanks": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
