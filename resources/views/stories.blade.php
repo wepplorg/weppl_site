@@ -12,9 +12,8 @@
                               <p class="feature_categories_title">{{$story->title}}</p>
                               <p>by {{$story->users->name}}</p>
                               <p class="short_discription_categories">{{$story->summary}}</p>
-                               <div class="row justify-content-end" style="position: absolute; right: 25px; bottom: 30px;">
+                               <div class="row justify-content-end">
                              <a href="{{url('beneficiary_detail/'.$story->slug)}}" class="read-more-link">Read More ></a>
-                             <a href="http://13.233.0.129/login" class="btn btn-success post_btn" style="margin-bottom: 20px; width: 60%; float: left;">Shop to Support</a>
                            </div>
                            </div>
                           
