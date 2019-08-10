@@ -1,6 +1,6 @@
   <nav class="navbar navbar-expand-lg bg-default navbar-default">
     <div class="container-fluid" id="div">
-          <a class="navbar-brand" href="{{url('/')}}">
+          <a class="navbar-brand" href="https://shop.weppl.org"> <!-- {{url('/')}} -->
             <img src="{{ asset('img/Logo.png')}}" class="logo header_logo" alt="logo"/>
           </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
