@@ -17,7 +17,7 @@
                            </div>
                            </div>
                           
-                            <div class="progress_sec welcome_progress">
+                            <!-- <div class="progress_sec welcome_progress">
                                 <div class="text">
                                   <?php $raised_amount = Payment::where('beneficiary_id','=',$story->id)->where('payment_status','=',"Success")->sum('amount'); 
                                         $count_people = Payment::where('beneficiary_id','=',$story->id)->where('payment_status','=','Success')->groupBy('user_id')->get();
@@ -42,7 +42,7 @@
                                      <span class="vl"></span>
                                     <span class="support_categories">{{count($count_people)}} supporters</span>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                       </a>
