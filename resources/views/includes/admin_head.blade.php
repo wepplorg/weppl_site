@@ -9,15 +9,15 @@
     <title>weppl</title>
     <link rel="shortcut icon" type="image/png" href="{{asset('img/icons/fevicon.png')}}" />
     <!-- Icons-->
-    <link href="{{ asset('assets/@coreui/icons/css/coreui-icons.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/flag-icon-css/css/flag-icon.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/simple-line-icons/css/simple-line-icons.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/@coreui/icons/css/coreui-icons.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/flag-icon-css/css/flag-icon.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/simple-line-icons/css/simple-line-icons.css')}}" rel="stylesheet">
     <!-- Main styles for this application-->
-    <link href="{{ asset('admin/css/style.css')}}" rel="stylesheet">
-    <link href="{{ asset('admin/css/general.css')}}" rel="stylesheet">
-    <link href="{{ asset('css/mediaquery.css')}}" rel="stylesheet">
-    <link href="{{ asset('admin/pace-progress/css/pace.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('admin/css/style.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('admin/css/general.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('css/mediaquery.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('admin/pace-progress/css/pace.min.css')}}" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics-->
