@@ -330,6 +330,8 @@
    });
      });
 </script>
+<!-- CoreUI and necessary plugins-->
+<script src="{{asset('assets/jquery/dist/jquery.min.js')}}"></script>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
       <script>
          var user_detail = "{{Auth::user()}}";
