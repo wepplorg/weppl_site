@@ -10,7 +10,7 @@
    <div class="collapse navbar-collapse" id="navbar-collapse">
     <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-        <a class="nav-link" href="https://shop.weppl.org" target="_blank">Weppl Shop</a>
+        <a class="nav-link" href="https://weppl.org" target="_blank">Weppl Shop</a>
     </li> 
     <li class="nav-item">
         <a class="nav-link" href="{{url('beneficiary_lists')}}">Browse causes</a>
@@ -18,7 +18,7 @@
      <li class="nav-item">
         <a class="nav-link" href="{{url('works')}}">How it Works?</a>
     </li>
-    <li class="nav-item"><a class="nav-link" target="_blank" href="https://shop.weppl.org/blogs/blogs">Weppl Blog</a></li>
+    <li class="nav-item"><a class="nav-link" target="_blank" href="https://weppl.org/blogs/blogs">Weppl Blog</a></li>
   </ul>
     <ul class="navbar-nav ml-auto">
     <li class="nav-item">
@@ -41,7 +41,6 @@
             <li class="nav-item">
               <a class="nav-link dashboard_link" href="{{url('ngo/dashboard')}}">Dashboard</a>
             </li>
-          @else
             <li class="nav-item">
               <a class="nav-link dashboard_link" href="{{url('donor_dashboard')}}">Dashboard</a>
             </li>
@@ -64,7 +63,7 @@
 
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
-                                        </form>                       
+                                        </form>
             </div>
           </li>
         @endif

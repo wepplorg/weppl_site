@@ -100,7 +100,7 @@
 <table style="width:600px;">
 	<tr>
 		<td style="width: 60px; border-radius: 50%; float:left;"><img src="{{$story->images->image}}" alt="Benificiary Image"></td>
-		<td><b>Benificiary: </b>{{$beneficiary_name}}<br/>
+		<td style="text-align:left;"><b>Benificiary: </b>{{$beneficiary_name}}<br/>
 			<b>Campaigner: </b>{{$beneficiary->users->name}}</td>
 	</tr>
 </table>
