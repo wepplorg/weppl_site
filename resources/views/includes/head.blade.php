@@ -1,5 +1,4 @@
 <title>weppl</title>
-<base href="./">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/png" href="{{asset('img/icons/fevicon.png')}}" />
@@ -50,19 +49,19 @@
     $(document).ready(function() {
         $('.carousel-main').owlCarousel({
               items: 1,
-          		loop: true,
-          		autoplay: false,
-          		autoplayTimeout:1500,
-          		margin: 10,
-          		nav: true,
-          		dots:false,
-      		    navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+              loop: true,
+              autoplay: false,
+              autoplayTimeout:1500,
+              margin: 10,
+              nav: true,
+              dots:false,
+              navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
          });
          $('#summernote').summernote({
-				        placeholder: 'Write',
-				        tabsize:2,
-				        height: 100
-				});
+                placeholder: 'Write',
+                tabsize:2,
+                height: 100
+        });
         $('.partner-carousel').owlCarousel({
               items:5,
               loop: true,
@@ -99,7 +98,7 @@
       //         var windowHeight = window.innerHeight;
       //         document.getElementById('body').style.height = windowHeight + "px";
       // }        
-		 });
+     });
  
    </script>
 
