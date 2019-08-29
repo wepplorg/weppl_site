@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://support.weppl.org'),
+    'url' => env('APP_URL', 'https://support.weppl.org'),
 
     /*
     |--------------------------------------------------------------------------
