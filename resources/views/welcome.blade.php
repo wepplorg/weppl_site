@@ -511,7 +511,7 @@
            }
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
            var options = {
-           "key": "rzp_live_5mA4A7HTopwv2e",
+           "key": "rzp_live_FCT6BUW05yQpLf",
            "amount": (totalAmount*100), // 2000 paise = INR 20
            "name": "Weppl",
            "description": "Payment",
