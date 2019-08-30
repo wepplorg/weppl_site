@@ -361,11 +361,11 @@
            var product_id =document.getElementById('story_id').value;
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
            var options = {
-           "key": "rzp_live_5mA4A7HTopwv2e",
+           "key": "rzp_live_FCT6BUW05yQpLf",
            "amount": (totalAmount*100), // 2000 paise = INR 20
            "name": "Weppl",
            "description": "Payment",
-           "image": "{{asset('img/we-love-ppl.jpg')}}",
+           "image": "{{asset('img/weppl-logo.png')}}",
            "handler": function (response){
             // console.log(response.email);
                  $.ajax({
@@ -392,7 +392,7 @@
                  "email": user_email,      
            },
            "theme": {
-               "color": "#528FF0"
+               "color": "#FFD700"
            }
          };
          var rzp1 = new Razorpay(options);
@@ -423,11 +423,11 @@
            }
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
            var options = {
-           "key": "rzp_live_5mA4A7HTopwv2e",
+           "key": "rzp_live_FCT6BUW05yQpLf",
            "amount": (totalAmount*100), // 2000 paise = INR 20
            "name": "Weppl",
            "description": "Payment",
-           "image": "{{asset('img/we-love-ppl.jpg')}}",
+           "image": "{{asset('img/weppl-logo.png')}}",
            "handler": function (response){
              //console.log(response);
                  $.ajax({
@@ -454,7 +454,7 @@
                  "email": email,      
            },
            "theme": {
-               "color": "#528FF0"
+               "color": "#FFD700"
            }
          };
          var rzp1 = new Razorpay(options);
