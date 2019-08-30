@@ -630,11 +630,11 @@ $("#other_amount").on('click',function(){
            //alert(product_id);
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
            var options = {
-           "key": "rzp_live_5mA4A7HTopwv2e",
+           "key": "rzp_live_FCT6BUW05yQpLf",
            "amount": (totalAmount*100), // 2000 paise = INR 20
            "name": "Weppl",
            "description": "Payment",
-           "image": "{{asset('img/we-love-ppl.jpg')}}",
+           "image": "{{secure_asset('img/we-love-ppl.jpg')}}",
            "handler": function (response){
              //console.log(response);
                  $.ajax({
