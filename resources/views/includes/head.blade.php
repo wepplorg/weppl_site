@@ -18,9 +18,9 @@
     <!-- Main styles for this application-->
     
 
-    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
-    <link href="{{ asset('admin/css/style.css')}}" rel="stylesheet">
-    <link href="{{ asset('css/sidenav.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('css/style.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('admin/css/style.css')}}" rel="stylesheet">
+    <link href="{{ secure_url('css/sidenav.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/mediaquery.css')}}">
     <!--<link href="{{ asset('assets/pace-progress/css/pace.min.css')}}" rel="stylesheet">-->
     
@@ -30,7 +30,7 @@
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
 
      <!-- CoreUI and necessary plugins-->
-    <script src="{{asset('assets/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{secure_url('assets/jquery/dist/jquery.min.js')}}"></script>
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="{{asset('assets/popper.js/dist/umd/popper.min.js')}}"></script>
     <script src="{{asset('assets/bootstrap/dist/js/bootstrap.min.js')}}"></script>
@@ -42,7 +42,7 @@
      <!-- datatables -->
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     
-    <script src="{{ asset('js/share.js') }}"></script>  
+    <script src="{{ asset('js/share.js') }}"></script>
     <script src="{{asset('js/sticky.js')}}"></script>
     <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0086/2507.js" async="async"></script>
     <script>
