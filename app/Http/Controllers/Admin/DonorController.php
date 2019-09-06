@@ -9,6 +9,8 @@ use App\Models\Role;
 use Session;
 use Keygen;
 use App\Models\Payment;
+use Mail;
+use App\Models\Beneficiary;
 class DonorController extends Controller
 {
     /**
@@ -135,6 +137,13 @@ class DonorController extends Controller
                 $data['invoice_no'] =1;
      }
       $store = Payment::create($data);
+      $user = User::find($request->get('user_id'));
+      $beneficiary = Beneficiary::find($request->get('beneficiary_id'));
+      Mail::send('email.admin_invocie',[ 'name' => $user->name,'beneficiary'=>$beneficiary,'payment'=>$store],function($message) use($user) {
+                     $message->to($user->email,$user->name);
+                     $message->subject('You are a Changemaker!');
+                     
+      });
       if($store){
         Session::flash('message', 'Successfully created the payment for donor!');
         return redirect('admin/beneficiary/'.$request->get('beneficiary_id').'/edit');
