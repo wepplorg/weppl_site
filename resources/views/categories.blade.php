@@ -78,7 +78,7 @@
     
     </div>
     <div class="ajax-load text-center p-5 loading_more_sec" style="display:none">
-  <p><img src="http://demo.itsolutionstuff.com/plugin/loader.gif">Loading More Stories</p>
+  <p><img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/loader.gif?1703">Loading More Stories</p>
 </div>
 
     <!--row-->

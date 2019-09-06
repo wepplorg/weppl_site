@@ -439,7 +439,7 @@
                      </div>
                     <div class="modal-body">   
             <div class="thank-you-pop">
-              <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+              <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/Green-Round-Tick.png?1703" alt="">
               <h1>Thanks for  Your supporting!</h1>
               <p></p> 
             </div>     
