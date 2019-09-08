@@ -105,25 +105,44 @@
 	</tr>
 </table>
 </div>
-<div class="karma-profile-details">
-<h2>Your Karma Profile</h2>
-<table style="width:600px; margin-bottom: 40px;">
-    <tr>
-        <td><img src="./1.png" alt=""><p>Total Causes Impacted: 1</p></td>
-        <td><img src="./2.png" alt=""><p>Total Contribution: Rs. 200</p></td>
-        <td><img src="./3.png" alt=""><p>You are always awesome.</p></td>
-    </tr>
-</table>
-<div class="email-cta"><a href="http://weppl.org">Do More</a></div>
-</div>
-<div class="email-footer-1">
-    <h2>BE GOOD, BUY GOOD.</h2>
-<a href="https://www.instagram.com/weppl_org/" target="_blank"><img src="{{asset('img/socail_icons/Insta-35x35.png')}}"></a>
-<a href="https://www.facebook.com/weppl.org" target="_blank"><img src="{{asset('img/socail_icons/FC_35x35.png')}}"></a>	
-<a href="https://www.youtube.com/channel/UCmdoiAeJbx3gw6UdMYvieSQ" target="_blank"><img src="{{asset('img/socail_icons/Youtube_35x35.png')}}"></a>
-<a href="https://twitter.com/weppl_org" target="_blank"><img src="{{asset('img/socail_icons/Twitter_35x35.png')}}"></a>
-<a href="https://www.linkedin.com/company/weppl" target="_blank"> <img src="{{asset('img/socail_icons/linked_35x35.png')}}"></a>
-</div>
+<div class="mt-4">
+            <h4>Your Karma Profile:</h4>
+            <div class="d-flex text-center mt-4 mb-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="karma-stats">
+                            <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/how-it-works-1.png?1693" alt="Causes Impacted">
+                            <p>Causes Impacted</p>
+                            <h4>2</h4>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="karma-stats">
+                            <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/how-it-works-2.png?1693" alt="Total Contribution">
+                            <p>Total Contribution</p>
+                            <h4>2</h4>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="karma-stats">
+                            <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/how-it-works-3.png?1693" alt="You are always awesome">
+                            <h6>You are always awesome.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 mb-5 email-cta text-center">
+            <a href="https://weppl.org">Do More</a>
+        </div>
+        <div class="email-footer-1 text-center">
+            <h2 class="mb-4">BE GOOD, BUY GOOD.</h2>
+            <a href="https://www.instagram.com/weppl_org/" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/instagram-icon.png?1697"></a>
+            <a href="https://www.facebook.com/weppl.org" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/facebook-icon.png?1697"></a>
+            <a href="https://twitter.com/weppl_org" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/twitter-icon.png?1697"></a>
+            <a href="https://www.youtube.com/channel/UCmdoiAeJbx3gw6UdMYvieSQ" target="_blank"> <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/youtube-icon.png?1697"></a>
+        </div>
+        
 </body>
 </html>
 
