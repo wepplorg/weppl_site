@@ -16,6 +16,8 @@
          @include('includes.footer')
       </footer>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140492425-1"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
