@@ -30,6 +30,8 @@
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
 
      <!-- CoreUI and necessary plugins-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
     <script src="{{secure_url('assets/jquery/dist/jquery.min.js')}}"></script>
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="{{secure_url('assets/popper.js/dist/umd/popper.min.js')}}"></script>

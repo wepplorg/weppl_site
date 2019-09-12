@@ -15,7 +15,6 @@
    </div>
    @include('includes.admin_footer')
      <!-- CoreUI and necessary plugins-->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="{{ asset('assets/jquery/dist/jquery.min.js')}}"></script>
     <script src="{{ asset('assets/popper.js/dist/umd/popper.min.js')}}"></script>
     <script src="{{ asset('assets/bootstrap/dist/js/bootstrap.min.js')}}"></script>
