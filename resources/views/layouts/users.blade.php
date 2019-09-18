@@ -15,7 +15,6 @@
        <footer class="footer_sec">
          @include('includes.footer')
       </footer>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140492425-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -33,7 +32,7 @@ $('.moreless-button').click(function() {
     $(this).text("Read more")
   }
 });
- $('#beneficairy_pending').DataTable();
+// $('#beneficairy_pending').DataTable();
  $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
           $("#success-alert").slideUp(500);
         });   

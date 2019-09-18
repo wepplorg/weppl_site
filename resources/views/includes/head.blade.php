@@ -27,12 +27,12 @@
      
       
     <!-- Global site tag (gtag.js) - Google Analytics-->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+  
 
      <!-- CoreUI and necessary plugins-->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-    <script src="{{secure_url('assets/jquery/dist/jquery.min.js')}}"></script>
+   <!-- <script src="{{secure_url('assets/jquery/dist/jquery.min.js')}}"></script>-->
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="{{secure_url('assets/popper.js/dist/umd/popper.min.js')}}"></script>
     <script src="{{secure_url('assets/bootstrap/dist/js/bootstrap.min.js')}}"></script>
@@ -48,6 +48,7 @@
     <script src="{{secure_url('js/sticky.js')}}"></script>
     <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0086/2507.js" async="async"></script>
     <script>
+    $(function($){ 
     $(document).ready(function() {
         $('.carousel-main').owlCarousel({
               items: 1,
@@ -101,6 +102,6 @@
       //         document.getElementById('body').style.height = windowHeight + "px";
       // }        
      });
- 
+    });
    </script>
 

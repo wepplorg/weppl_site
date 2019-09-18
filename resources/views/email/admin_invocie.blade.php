@@ -113,14 +113,14 @@
                         <div class="karma-stats">
                             <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/how-it-works-1.png?1693" alt="Causes Impacted">
                             <p>Causes Impacted</p>
-                            <h4>2</h4>
+                            <h4>{{$total_impacted}}</h4>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="karma-stats">
                             <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/how-it-works-2.png?1693" alt="Total Contribution">
                             <p>Total Contribution</p>
-                            <h4>2</h4>
+                            <h4>{{$total_amount}}</h4>
                         </div>
                     </div>
                     <div class="col-4">

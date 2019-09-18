@@ -353,13 +353,13 @@
          <div class="row justify-content-center donate_amount_sec">
             <div class="btn-group btn-group-toggle" data-toggle="buttons" id="other_amount">
               <label class="btn btn-light active">
-                <input type="radio" name="amount" id="option1" autocomplete="off" required checked value="50"> 50
+                <input type="radio" name="with_out_login_amount" id="option1" autocomplete="off" required checked value="50"> 50
               </label>
               <label class="btn btn-light">
-                <input type="radio" name="amount" id="option2" autocomplete="off" required value="100"> 100
+                <input type="radio" name="with_out_login_amount" id="option2" autocomplete="off" required value="100"> 100
               </label>
               <label class="btn btn-light">
-                <input type="radio" name="amount" id="option3" autocomplete="off" value="other"> Other Amount
+                <input type="radio" name="with_out_login_amount" id="option3" autocomplete="off" value="other"> Other Amount
               </label>
             </div>
           </div>
@@ -409,7 +409,7 @@
          <div class="row justify-content-center donate_amount_sec">
             <div class="btn-group btn-group-toggle" data-toggle="buttons" id="other_amount">
               <label class="btn btn-light active">
-                <input type="radio" name="amount" id="option1" autocomplete="off" required checked value="50"> 50
+                <input type="radio" name="amount" id="option1" autocomplete="off" required checked value="1"> 1
               </label>
               <label class="btn btn-light">
                 <input type="radio" name="amount" id="option2" autocomplete="off" required value="100"> 100
@@ -439,7 +439,7 @@
                      </div>
                     <div class="modal-body">   
             <div class="thank-you-pop">
-              <img src="https://cdn.shopify.com/s/files/1/0259/4547/3117/files/Green-Round-Tick.png?1703" alt="">
+              <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
               <h1>Thanks for  Your supporting!</h1>
               <p></p> 
             </div>     
@@ -566,7 +566,8 @@ $.ajax({
 })
 
 //amount customization
-$("#other_amount").on('click',function(){
+$(document).ready(function(){
+   $("#option3").on('click',function(){
  // alert("hi");  
    var value =document.querySelector('input[name="amount"]:checked').value;
    if(value == "other"){
@@ -578,7 +579,9 @@ $("#other_amount").on('click',function(){
    }else{
 
    }
+ })
 })
+
 
 //read less and more 
  $('.read-more-content').addClass('hide_content')
@@ -624,8 +627,9 @@ $("#other_amount").on('click',function(){
 
                totalAmount = document.getElementById('custom_amount').value;
            }else{
-               $totalAmount = document.querySelector('input[name="amount"]:checked').value;
+               totalAmount = document.querySelector('input[name="amount"]:checked').value;
            }
+          // alert(totalAmount);
            var product_id =document.getElementById('beneficiary_id').value;
            //alert(product_id);
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
@@ -634,7 +638,7 @@ $("#other_amount").on('click',function(){
            "amount": (totalAmount*100), // 2000 paise = INR 20
            "name": "Weppl",
            "description": "Payment",
-           "image": "{{secure_asset('img/weppl-logo.png')}}",
+           "image": "{{asset('img/weppl-logo.png')}}",
            "handler": function (response){
              //console.log(response);
                  $.ajax({
@@ -681,12 +685,12 @@ $("#other_amount").on('click',function(){
           var mobile_number=document.getElementById('mobile_number').value;
           var product_id =document.getElementById('beneficiary_id').value;
            //alert(email);
-          var totalAmount =document.querySelector('input[name="amount"]:checked').value;
+          var totalAmount =document.querySelector('input[name="with_out_login_amount"]:checked').value;
            if(totalAmount == "other"){
 
                totalAmount = document.getElementById('custom_amount').value;
            }else{
-               $totalAmount = document.querySelector('input[name="amount"]:checked').value;
+               $totalAmount = document.querySelector('input[name="with_out_login_amount"]:checked').value;
            }
            var ticket_count = document.querySelector('input[name="ticket_count"]:checked').value;
            var options = {

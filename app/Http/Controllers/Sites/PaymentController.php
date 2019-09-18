@@ -104,9 +104,11 @@ class PaymentController extends Controller
       $invoice['payment']=$store;
       $invoice['beneficiary']=$beneficiary;
       $invoice['order_id'] ="ORD".''.date('Ymd').$store->invoice_no; 
+       $total_impacted = PaymentDetail::where('user_id','=',$user->id)->groupBy('beneficiary_id')->where('payment_status','=','Success')->count();
+      $total_amount = PaymentDetail::where('user_id','=',$user->id)->where('payment_status','=','Success')->sum('amount');
       //pdf file attahment
       $pdf = PDF::loadView('email.invoice', $invoice);
-      Mail::send('email.invoice_email',[ 'name' => $user->name,'beneficiary'=>$beneficiary,'payment'=>$store],function($message) use($user,$pdf) {
+      Mail::send('email.invoice_email',[ 'name' => $user->name,'beneficiary'=>$beneficiary,'payment'=>$store,'total_amount'=>$total_amount,'total_impacted'=>$total_impacted],function($message) use($user,$pdf) {
                      $message->to($user->email,$user->name);
                      $message->subject('You are a Changemaker!');
                     $message->attachData($pdf->output(), "invoice.pdf");
@@ -160,7 +162,9 @@ class PaymentController extends Controller
       $invoice['order_id'] ="ORD".''.date('Ymd').$store->invoice_no; 
       //pdf file attahment
       $pdf = PDF::loadView('email.invoice', $invoice);
-      Mail::send('email.invoice_email',[ 'name' => $user->name,'beneficiary'=>$beneficiary,'payment'=>$store],function($message) use($user,$pdf) {
+        $total_impacted = PaymentDetail::where('user_id','=',$user->id)->groupBy('beneficiary_id')->where('payment_status','=','Success')->count();
+      $total_amount = PaymentDetail::where('user_id','=',$user->id)->where('payment_status','=','Success')->sum('amount');
+      Mail::send('email.invoice_email',[ 'name' => $user->name,'beneficiary'=>$beneficiary,'payment'=>$store,'total_amount'=>$total_amount,'total_impacted'=>$total_impacted],function($message) use($user,$pdf) {
                      $message->to($user->email,$user->name);
                      $message->subject('You are a Changemaker!');
                     $message->attachData($pdf->output(), "invoice.pdf");
